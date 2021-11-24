@@ -11,7 +11,7 @@ box-sizing: border-box;}
 *, *:before, *:after {
     box-sizing: inherit;
   }
-@media (max-width:1000px ) {html{font-size: 85%;}  
+@media (max-width:1000px ) {html{font-size: 90%;}  
 body{width: min(90% 120rem);}
 }
 
