@@ -221,9 +221,9 @@ margin-top: 1rem;}
 
 
 /**CORREO**/
-.correo  {background-color: var(--grey);
+.correo  {background-color:rgba(27, 27, 27, 0.801);
     color: var(--white);
-    padding: 3rem ;
+    padding: 1rem ;
     margin-top: 1rem;
     font-size: 2rem;
     text-decoration: none;
@@ -242,6 +242,8 @@ margin-top: 1rem;}
     box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     margin-bottom: 1.5rem;}
 
+    
+
 
 
 
@@ -259,7 +261,8 @@ margin-top: 1rem;}
 
 /**CONTACTO**/
 .contacto{text-align: center;
-gap: 5rem;}
+gap: 5rem;
+margin-top: 2rem;}
 .icon-tabler-brand-whatsapp, .icon-tabler-brand-facebook, .icon-tabler-brand-instagram {-webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
