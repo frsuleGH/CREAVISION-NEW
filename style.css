@@ -227,7 +227,7 @@ margin-top: 1rem;}
     margin-top: 1rem;
     font-size: 2rem;
     text-decoration: none;
-    text-transform:lowercase;
+    text-transform:normal;
     font-weight: bold;
     border-radius: .5rem;
     width: 50%;
@@ -243,6 +243,8 @@ margin-top: 1rem;}
     margin-bottom: 1.5rem;}
 
     .correo p {color: var(--black);}
+
+    
 
 
 
