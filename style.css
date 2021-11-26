@@ -6,7 +6,7 @@
 }
 
 
-html{font-size: 90%;
+html{font-size: 100%;
     width: min(90% 120rem);
     box-sizing: border-box;}
     *, *:before, *:after {
