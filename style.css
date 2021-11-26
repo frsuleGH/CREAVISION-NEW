@@ -12,22 +12,11 @@ box-sizing: border-box;}
     box-sizing: inherit;
   }
 
-@media (max-width: 768px) {html {font-size: 85%;}
+@media (min-width: 768px) {html {font-size: 85%;}
     
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  ;
-}
     
 
 
