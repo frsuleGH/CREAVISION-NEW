@@ -266,7 +266,8 @@ margin-top: 1rem;}
    .img__cliente{width: 30rem;}
    .img__clientes{display: flex;
 flex-direction: column;
-justify-content: center;}
+justify-content: space-between;
+margin: 0 auto;}
 
 
 
