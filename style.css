@@ -55,7 +55,7 @@ justify-content: center;
 -moz-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
 box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
 background-image: url(background.jpg);
-background-image: url(background.webp);
+
    background-repeat: no-repeat;
    background-position: start;
 
@@ -112,7 +112,7 @@ display: block;
 /**CITY**/
 .ubicacion{ 
    background-image: url(backgrounddark.jpg);
-   background-image: url(backgrounddark.webp);
+   
    background-repeat: no-repeat;
    background-position: center;
 
