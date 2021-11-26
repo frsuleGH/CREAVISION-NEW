@@ -12,10 +12,7 @@ html{font-size: 62.5%;
     *, *:before, *:after {
         box-sizing: inherit;
       }
-      @media (max-width: 1000px) {html{
-        min-width: 90% 120rem;}
-          
-      }
+    
 
 
     
