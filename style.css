@@ -258,8 +258,12 @@ margin-top: 1rem;}
 
     .correo p {color: var(--black);}
 
-    
-   
+    @media (min-width: 1000px) {
+        .img__clientes{display: grid;
+        grid-template-columns: 1fr  1fr;
+    gap: 2rem;}}
+
+   .img__cliente{width: 30rem;}
 
 
 
