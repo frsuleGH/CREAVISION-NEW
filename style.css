@@ -214,11 +214,13 @@ gap: 2rem;
 padding-top: 2rem;}}
 
 .img__nc{width: 20rem;
+    height: 15rem;
 align-items: center;
 padding-bottom: 1rem;
 border-radius: .5rem;}
 
 .img__ldtv{width: 15rem;
+    height: 15rem;
     align-items: center;
 border-radius: .5rem;}
     
