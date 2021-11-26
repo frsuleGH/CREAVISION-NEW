@@ -14,7 +14,7 @@ box-sizing: border-box;}
 
 body{width: 120rem;}
 
-@media (max-width: 1000px ) {body{width: 90%;}
+@media (max-width: 1000px ) {html{width: 90%;}
     
 }
 
