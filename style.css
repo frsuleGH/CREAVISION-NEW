@@ -6,7 +6,7 @@
 }
 
 
-html{ font-size: 90%;
+html{ font-size: 62.5%;
 box-sizing: border-box;}
 *, *:before, *:after {
     box-sizing: inherit;
@@ -15,13 +15,6 @@ box-sizing: border-box;}
 body{width: min(90% 120rem);}
 }
 
-@media (min-width: 1000px) {html{ font-size: 62.5%;
-    box-sizing: border-box;}
-    *, *:before, *:after {
-        box-sizing: inherit;
-      }
-    
-}
 
 body{font-size: 12px;
     font-family:'Istok Web', sans-serif;
