@@ -262,7 +262,8 @@ margin-top: 1rem;}
         flex-direction: column;
         justify-content: space-between;
         margin: 0 auto;
-        margin-bottom: 1rem;}
+        margin-right: 1rem;}
+
     @media (min-width: 1000px) {
         .img__clientes{display: grid;
         grid-template-columns: 1fr  1fr;
