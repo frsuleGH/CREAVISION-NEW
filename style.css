@@ -76,9 +76,8 @@ font-weight: normal;}
 
 .container{
     width:min(90% , 120rem);
-    margin: 0 auto 0 auto;
-
-}
+    margin: 0 auto 0 auto;}
+  
 
 /**NAVIGATION**/
 .nav-bg{
