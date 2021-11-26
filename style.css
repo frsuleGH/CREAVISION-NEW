@@ -4,15 +4,15 @@
     --primary: #ffc107;
     --grey:#9b9b9b;
 }
-
+body{width: min(90% 120rem);}
 
 html{ font-size: 62.5%;
 box-sizing: border-box;}
 *, *:before, *:after {
     box-sizing: inherit;
   }
-@media (max-width:1000px ) {html{}  
-body{width: min(90% 120rem);}
+@media (max-width:1000px ) {html{font-size: 80%;}  
+
 }
 
 
