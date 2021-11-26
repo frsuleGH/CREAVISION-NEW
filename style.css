@@ -152,8 +152,7 @@ justify-content: center;}
 
 /**SERVICES**/
 .servicio__bloque{
-    display: flex;
-    flex-direction: column;
+    
     align-items: center;
 }
 @media (min-width: 1000px) {.servicios{display: grid;
