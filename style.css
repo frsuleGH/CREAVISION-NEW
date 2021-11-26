@@ -13,7 +13,7 @@ html{font-size: 62.5%;
         box-sizing: inherit;
       }
     
-      @media (max-width: 1000px) {html{font-size: 85%;}
+      @media (max-width: 1000px) {html{font-size: 90%;}
 	  
     }
 
@@ -24,7 +24,7 @@ body{font-size: 12px;
     font-family:'Istok Web', sans-serif;
 }
 
-@media (max-width: 1000px ) {body{font-size: 18px;
+@media (max-width: 1000px ) {body{font-size: 12px;
     font-family:'Istok Web', sans-serif;
 }
     
