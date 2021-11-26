@@ -12,8 +12,8 @@ html{font-size: 62.5%;
     *, *:before, *:after {
         box-sizing: inherit;
       }
-      @media (max-width: 1500px) {html{font-size: 85%;
-        width:min(90% 120rem)}
+      @media (max-width: 1000px) {html{
+        width:90rem}
           
       }
 
