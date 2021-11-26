@@ -76,7 +76,7 @@ font-weight: normal;}
 
 
 .container{
-    width:min(90% , 120rem);
+    max-width: 120rem;
     margin: 0 auto 0 auto;}
   
 
