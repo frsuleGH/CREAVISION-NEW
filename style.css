@@ -12,10 +12,9 @@ box-sizing: border-box;}
     box-sizing: inherit;
   }
 
-body{width: 120rem;
-max-width: 90%;}
+body{width: 120rem;}
 
-@media (max-width: 1000px ) {html{max-width: 90%;}
+@media (max-width: 1000px ) {html{min-width: 90%;}
     
 }
 
