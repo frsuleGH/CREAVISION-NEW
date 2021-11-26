@@ -6,19 +6,20 @@
 }
 
 
-html{ font-size: 62.5%;
-box-sizing: border-box;}
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
-
-html{width:min(120rem);}
+html{font-size: 62.5%;
+    box-sizing: border-box;}
+    *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      @media (max-width: 1000px) {html{font-size: 85%;}
+          
+      }
 
 
     
 
 
-body{font-size: 18px;
+body{font-size: 12px;
     font-family:'Istok Web', sans-serif;
 }
 
