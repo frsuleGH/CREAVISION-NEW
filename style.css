@@ -6,7 +6,7 @@
 }
 
 
-html{font-size: 110%;
+html{font-size: 90%;
     width: min(90% 120rem);
     box-sizing: border-box;}
     *, *:before, *:after {
@@ -20,7 +20,7 @@ html{font-size: 110%;
     
 
 
-body{font-size: 12px;
+body{font-size: 18px;
     font-family:'Istok Web', sans-serif;
 }
 
