@@ -7,13 +7,15 @@
 
 
 html{font-size: 62.5%;
-    width: min(90%  120rem);
+    width: min(90% 120rem);
     box-sizing: border-box;}
     *, *:before, *:after {
         box-sizing: inherit;
       }
     
-
+      @media (max-width: 1000px) {html{font-size: 85%;}
+	  
+    }
 
     
 
