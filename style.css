@@ -7,6 +7,7 @@
 
 
 html{ font-size: 62.5%;
+    width: 120rem;
 box-sizing: border-box;}
 *, *:before, *:after {
     box-sizing: inherit;
