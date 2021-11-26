@@ -12,7 +12,7 @@ box-sizing: border-box;}
     box-sizing: inherit;
   }
 
-body{width: min(90% 120rem);}
+body{width: 120rem;}
 
 body{font-size: 18px;
     font-family:'Istok Web', sans-serif;
