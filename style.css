@@ -199,9 +199,9 @@ text-align: center;}
 /**YOUTUBE**/
    .canalyt  {background-color: var(--secondary);
     color: var(--white);
-    padding: 1rem 3rem;
-    margin-top: 1rem;
-    font-size: 4rem;
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+    font-size: 3.5rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -218,7 +218,7 @@ text-align: center;}
     box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     margin-bottom: 1.5rem;
 }
-@media (min-width: 1000px) {.canalyt{font-size: 2rem;}
+@media (min-width: 1000px) {.canalyt{font-size: 2rem;padding: 1rem 3rem;margin-top: 1rem;}
     
 }
 
