@@ -27,13 +27,11 @@ html{box-sizing: border-box;
     
 
 
-body{font-size: 18px;
+body{font-size: 1.6rem;
     font-family:'Istok Web', sans-serif;
 }
 
-@media (max-width: 1000px ) {body{font-size: 12px;
-    font-family:'Istok Web', sans-serif;
-}
+
     
 }
 
