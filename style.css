@@ -6,16 +6,20 @@
 }
 
 
-
+html{font-size: 62.5%;
+    width: min(90% 120rem);
+    box-sizing: border-box;}
+    *, *:before, *:after {
+        box-sizing: inherit;
+      }
+    
+     @media (max-width: 1500px) {html{font-size: 95%;}
+         
+     }
      html {
         box-sizing: border-box;
         font-size: 62.5%;
       }
-      @media (max-width: 1000px ) { html{font-size: 95%;}
-        
-    }
-
-
       *, *:before, *:after {
         box-sizing: inherit;
         
@@ -23,11 +27,11 @@
     
 
 
-body{font-size: 12px;
+body{font-size: 18px;
     font-family:'Istok Web', sans-serif;
 }
 
-@media (max-width: 1000px ) {body{font-size: 18px;
+@media (max-width: 1000px ) {body{font-size: 12px;
     font-family:'Istok Web', sans-serif;
 }
     
