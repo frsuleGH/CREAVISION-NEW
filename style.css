@@ -11,13 +11,16 @@
         box-sizing: border-box;
         font-size: 62.5%;
       }
+      @media (min-width: 1000px ) { html{font-size: 95%;}
+        
+    }
+
+
       *, *:before, *:after {
         box-sizing: inherit;
         
       }
-    @media (min-width: 1000px ) { html{font-size: 85%;}
-        
-    }
+    
 
 
 body{font-size: 18px;
