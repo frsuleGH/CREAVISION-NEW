@@ -6,7 +6,7 @@
 }
 
 
-html{
+html{size: 85%;
     width: min(95% 120rem);
     box-sizing: border-box;}
     *, *:before, *:after {
