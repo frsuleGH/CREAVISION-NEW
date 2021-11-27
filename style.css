@@ -315,8 +315,10 @@ margin-top: 1rem;}
 
 
 /**CONTACTO**/
-.contacto{text-align: center;
+.contacto{text-align: center;}
+.contacto_iconos{}
 
+    
 
 margin-top: 2rem;}
 .icon-tabler-brand-whatsapp, .icon-tabler-brand-facebook, .icon-tabler-brand-instagram {-webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
