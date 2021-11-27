@@ -258,21 +258,11 @@ margin-top: 1rem;}
 
     .correo p {color: var(--black);}
 
-    .img__clientes{display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 0 auto;
-        margin-right: 1rem;}
-
-    @media (min-width: 1000px) {
-        .img__clientes{display: grid;
-        grid-template-columns: 1fr  1fr;
-    gap: 2rem;}}
-
-   .img__cliente{width: 30rem;}
+    
    
 
-
+    .cliente__video{width: 40rem;
+        border-radius: .5rem;}
 
 
 
