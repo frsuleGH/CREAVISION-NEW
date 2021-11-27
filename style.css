@@ -241,6 +241,10 @@ font-weight: bold;}
 .estudio__video{width: 40rem;
 border-radius: .5rem;}
 
+@media (max-width: 1000px) {.estudio__video{width: 70rem;}
+    
+}
+
 /**PROGRAMAS**/
 @media (min-width: 1000px) {.programas{display: grid;
 grid-template-columns: 50% 50%;
