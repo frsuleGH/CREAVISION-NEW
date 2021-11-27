@@ -23,11 +23,11 @@
     
 
 
-body{font-size: 18px;
+body{font-size: 12px;
     font-family:'Istok Web', sans-serif;
 }
 
-@media (max-width: 1000px ) {body{font-size: 12px;
+@media (max-width: 1000px ) {body{font-size: 18px;
     font-family:'Istok Web', sans-serif;
 }
     
