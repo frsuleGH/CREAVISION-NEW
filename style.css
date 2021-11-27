@@ -6,8 +6,8 @@
 }
 
 
-html{size: 85%;
-    width: min(95% 120rem);
+html{
+    width: min(90% 120rem);
     box-sizing: border-box;}
     *, *:before, *:after {
         box-sizing: inherit;
