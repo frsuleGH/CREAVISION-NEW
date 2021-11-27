@@ -6,17 +6,15 @@
 }
 
 
-html{font-size: 62.5%;
-    width: min(90% 120rem);
-    box-sizing: border-box;}
-    *, *:before, *:after {
-        box-sizing: inherit;
-      }
-    
-     @media (max-width: 1500px) {html{font-size: 95%;}
-         
-     }
 
+     html {
+        box-sizing: border-box;
+        font-size: 62.5%;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+        
+      }
     
 
 
