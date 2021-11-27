@@ -11,7 +11,7 @@
         box-sizing: border-box;
         font-size: 62.5%;
       }
-      @media (min-width: 1000px ) { html{font-size: 95%;}
+      @media (max-width: 1000px ) { html{font-size: 95%;}
         
     }
 
