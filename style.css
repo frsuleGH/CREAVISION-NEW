@@ -295,3 +295,12 @@ footer{-webkit-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
    background-repeat: no-repeat;
    background-position:right ;
 }
+
+@media (max-width: 1000px ) {.icon-tabler-brand-whatsapp, .icon-tabler-brand-facebook, .icon-tabler-brand-instagram {-webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
+border-radius: 10%;
+background-color:lightblue;
+margin-right: 3.5rem;
+width: 10rem;}}
+    
