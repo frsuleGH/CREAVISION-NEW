@@ -295,10 +295,15 @@ margin-top: 1rem;}
     box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     margin-bottom: 1.5rem;}
 
+    
+
     .correo p {color: var(--black);}
 
-    
+    @media (min-width: 1000px) {
+.contacto_iconos{display: grid;
+grid-template-columns: 1fr 1fr 1fr;}}
    
+
 
     .cliente__video{width: 40rem;
         border-radius: .5rem;}
