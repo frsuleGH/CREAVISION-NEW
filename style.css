@@ -266,6 +266,9 @@ border-radius: .5rem;}
     align-items: center;
 border-radius: .5rem;}
     
+@media (max-width: 1000px ) {.img__nc{width: 30rem;}
+.img__ldtv{width: 25rem;height: 25rem;}
+}
 
 /**video**/
 .marco{-webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
