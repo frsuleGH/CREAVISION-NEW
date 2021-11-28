@@ -25,9 +25,12 @@ html{box-sizing: border-box;
         
       }
     
+@media (min-width: 1000px) {body{font-size: 1.8rem;}
+    
+}
 
 
-body{font-size: 1.8rem;
+body{font-size: 2rem;
     font-family:'Istok Web', sans-serif;
 }
 
