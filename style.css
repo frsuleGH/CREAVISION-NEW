@@ -9,9 +9,7 @@
 html{box-sizing: border-box;
     font-size: 62.5%;
     width: min(90% 120rem);}
-    *, *:before, *:after {
-        box-sizing: inherit;
-      }
+    
     
      @media (max-width: 1000px) {html{font-size: 95%;}
          
