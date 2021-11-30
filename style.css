@@ -5,9 +5,7 @@
     --grey:#9b9b9b;
 }
 
-@media (min-width: 3000px) {html{width: min (90% 170rem);}
-    
-}
+
 html{box-sizing: border-box;
     font-size: 62.5%;
     width: min(90% 120rem);}
@@ -120,10 +118,7 @@ font-weight: normal;}
 .container{
     max-width: 120rem;
     margin: 0 auto 0 auto;}
-  @media (min-width: 3000px) {.container{
-    max-width: 170rem;}
-      
-  }
+  
 
 /**NAVIGATION**/
 .nav-bg{
