@@ -118,7 +118,10 @@ font-weight: normal;}
 .container{
     max-width: 120rem;
     margin: 0 auto 0 auto;}
-  
+  @media (min-width: 3000px) {.container{
+    max-width: 170rem;}
+      
+  }
 
 /**NAVIGATION**/
 .nav-bg{
