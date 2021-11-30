@@ -264,6 +264,7 @@ border-radius: .5rem;}
 .img__ldtv{width: 15rem;
     height: 15rem;
     align-items: center;
+    margin-bottom: .3rem;
 border-radius: .5rem;}
     
 @media (max-width: 1000px ) {.img__nc{width: 30rem;}
