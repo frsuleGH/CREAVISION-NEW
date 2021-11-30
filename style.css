@@ -249,6 +249,9 @@ border-radius: .5rem;}
     
 }
 
+@media (min-width: 1000px) {.espacioabajo p{margin-bottom: 9rem;}
+    
+}
 /**PROGRAMAS**/
 @media (min-width: 1000px) {.programas{display: grid;
 grid-template-columns: 50% 50%;
