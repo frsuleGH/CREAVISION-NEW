@@ -236,7 +236,7 @@ text-align: center;}
 grid-template-columns: 50% 50%;
 gap: 2rem;
 }}
-.estudio__bloque p{line-height: 2;
+.estudio__bloque p{
 text-align: center;}
 
 .estudio__bloque h3{
