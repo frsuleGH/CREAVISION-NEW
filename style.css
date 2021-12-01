@@ -345,7 +345,7 @@ margin-right: 2rem;
 @media (max-width:1000px ) {.contacto_iconos{width: 12rem; height: 12rem;}
   .correo p{font-size: 4rem;}  
 }
-.correo svg{width: 7rem; height: 5rem;}
+
 
 footer{-webkit-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
     -moz-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
