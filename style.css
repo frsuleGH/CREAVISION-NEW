@@ -343,7 +343,7 @@ background-color: lightblue;
 margin-right: 2rem;
 }
 @media (max-width:1000px ) {.contacto_iconos svg{width: 12rem; height: 12rem;}
-    
+  .correo{width: 20rem;}  
 }
 
 
