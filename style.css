@@ -13,7 +13,6 @@ html{box-sizing: border-box;
         box-sizing: inherit;
       }
     
-     @media (max-width: 1000px) {html{font-size: 95%;}
          
      }
      html {
