@@ -17,7 +17,7 @@ html{box-sizing: border-box;
 
 
 
-body{
+body{ background-color: var(--black);
     font-family:'Istok Web', sans-serif;
 }
 
@@ -47,7 +47,8 @@ color: var(--secondary);}
     p{text-align: center;
         font-weight: normal;
         padding: 1rem;
-        font-size: 1.8rem;}
+        font-size: 1.8rem;
+    color: var(--white);}
 
    
     
@@ -146,15 +147,17 @@ padding-top: 2rem;
     
 }
 /**SHADOW BACKGROUND**/
-.principal{-webkit-box-shadow: -2px 7px 12px 6px rgba(0,0,0,0.61);
-    -moz-box-shadow: -2px 7px 12px 6px rgba(0,0,0,0.61);
-    box-shadow: -2px 7px 12px 6px rgba(0,0,0,0.61);
+.principal{-webkit-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
+    -moz-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
+    box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
 border-radius: 1rem;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-padding-bottom: 2rem;}
+padding-bottom: 2rem;
+background-image: url(HUMO.jpg);
+background-position: center;}
 
 /**SERVICES**/
 .servicio__bloque{
@@ -188,9 +191,9 @@ text-align: center;}
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.678);
+    -moz-box-shadow:  -2px 7px 12px 6px rgba(255, 255, 255, 0.678);
+    box-shadow:  -2px 7px 12px 6px rgba(255, 255, 255, 0.678);
     margin-bottom: 1.5rem;
 }
 @media (min-width: 768px) {.canalyt{font-size: 2rem;padding: 1rem 3rem;margin-top: 1rem;}
@@ -247,9 +250,9 @@ border-radius: .5rem;}
 
 
 /**video**/
-.marco{-webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
+.marco{-webkit-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
+    -moz-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
+    box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
 margin-top: 1rem;}
 
 .promo{margin-bottom: 1.3rem;}
