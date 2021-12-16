@@ -176,9 +176,9 @@ text-align: center;}
 /**YOUTUBE**/
    .canalyt  {background-color: var(--secondary);
     color: var(--white);
-    padding: 2rem 6rem;
+    padding: 1rem 5rem;
     margin-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
