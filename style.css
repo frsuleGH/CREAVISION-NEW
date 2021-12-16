@@ -117,6 +117,7 @@ display: block;
 /**CITY**/
 .ubicacion{ 
     background-image: url(background.jpg);
+    background-image: url(background.webp);
    
    
    background-repeat: no-repeat;
