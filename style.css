@@ -288,8 +288,12 @@ margin-top: 1rem;}
    
 
 
-    .cliente__video{width: 40rem;
+    .cliente__video{width: 35rem;
         border-radius: .5rem;}
+
+        @media (min-width: 768px) {.cliente__video{width: 50rem;}
+            
+        }
 
 
 
