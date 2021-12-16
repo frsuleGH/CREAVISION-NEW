@@ -331,4 +331,5 @@ footer{-webkit-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
    background-position:right ;
    padding-top: 1rem;
    padding-bottom: 1rem;
+   border-radius: .5rem;
 }
