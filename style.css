@@ -14,15 +14,6 @@ html{box-sizing: border-box;
       }
     
          
-     
-     html {
-        box-sizing: border-box;
-        font-size: 62.5%;
-      }
-      *, *:before, *:after {
-        box-sizing: inherit;
-        
-      }
     
 
 
@@ -125,7 +116,7 @@ display: block;
     color: var(--black);
 }
 
-@media (min-width: 1000px) {.navigation{ flex-direction: row;
+@media (min-width: 768px) {.navigation{ flex-direction: row;
     justify-content: space-between;}
     .navigation a{font-size: 2.5rem;padding: 1rem;}
 }
