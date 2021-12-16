@@ -214,10 +214,10 @@ text-align: center; align-items: center;}
 .estudio__bloque h3{
 font-weight: bold;}
 
-.estudio__video{width: 40rem; align-items: center;
+.estudio__video{width: 50rem; align-items: center;
 border-radius: .5rem;}
 
-@media (max-width: 768px) {.estudio__video{width: 70rem;}
+@media (max-width: 768px) {.estudio__video{width: 35rem;}
     
 }
 
