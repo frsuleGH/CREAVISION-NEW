@@ -61,17 +61,10 @@ color: var(--secondary);}
 .header{display: flex;
 flex-direction: row;
 justify-content: center;
--webkit-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
--moz-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
-background-image: url(background.jpg);
-background-image: url(background.webp);
-
-   background-repeat: no-repeat;
-   background-position: start;
+padding: 1rem;
 
 }
-@media (min-width: 1000px) { .header{flex-direction: column;}
+@media (min-width: 768px) { .header{flex-direction: column;}
     
 }
 
@@ -123,11 +116,11 @@ display: block;
     
 /**CITY**/
 .ubicacion{ 
-    background-image: url(backgrounddark.jpg);
-   background-image: url(backgrounddark.webp);
+    background-image: url(background.jpg);
+   
    
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: right;
 
 }
 
