@@ -327,6 +327,8 @@ footer{-webkit-box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
     box-shadow: inset 0px 0px 23px 9px rgba(0,0,0,0.52);
     color: var(--white);
     background-image: url(background.jpg);
+    background-image: url(background.webp);
+
    background-repeat: no-repeat;
    background-position:right ;
    padding-top: 1rem;
