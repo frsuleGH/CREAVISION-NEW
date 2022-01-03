@@ -62,16 +62,11 @@ color: var(--secondary);}
 padding: 0;
 
 }
-@media (min-width: 768px) { .header{display: flex;
-    flex-direction: row;
-    justify-content: center;
-padding: 1rem;}
-    
-}
+
 
 .header__titulo{
     align-items: center;
-font-size: 3.8rem;
+
 color: var(--black);
 font-weight: normal;}
 
