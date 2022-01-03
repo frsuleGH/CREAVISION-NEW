@@ -131,7 +131,7 @@ display: block;
     color: var(--white);
     font-size: 3rem;}
 
-.ubicacion__logo{width: 35rem;
+.ubicacion__logo{width: 33rem;
 margin: auto;
 display: block;
 padding: 1rem;
@@ -155,9 +155,9 @@ background-image: url(HUMO.jpg);
 background-image: url(HUMO.webp);
 }
 
-@media (min-width: 992px) { .principal{background-position: center;}
+
     
-}
+
 /**SERVICES**/
 .servicio__bloque{
     
@@ -219,7 +219,7 @@ font-weight: bold;}
 .estudio__video{width: 50rem; align-items: center;
 border-radius: .5rem;}
 
-@media (max-width: 992px) {.estudio__video{width: 35rem;}
+@media (max-width: 992px) {.estudio__video{width: 33rem;}
     
 }
 
