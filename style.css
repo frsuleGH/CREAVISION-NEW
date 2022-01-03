@@ -138,7 +138,7 @@ padding: 1rem;
 padding-top: 2rem;
 }
 
-@media (min-width: 768px) {.ubicacion__logo{width: 70rem;}
+@media (min-width: 992px) {.ubicacion__logo{width: 70rem;}
     
 }
 /**SHADOW BACKGROUND**/
@@ -155,7 +155,7 @@ background-image: url(HUMO.jpg);
 background-image: url(HUMO.webp);
 }
 
-@media (min-width: 768px) { .principal{background-position: center;}
+@media (min-width: 992px) { .principal{background-position: center;}
     
 }
 /**SERVICES**/
@@ -163,7 +163,7 @@ background-image: url(HUMO.webp);
     
     align-items: center;
 }
-@media (min-width: 768px) {.servicios{display: grid;
+@media (min-width: 992px) {.servicios{display: grid;
 grid-template-columns: 50% 50%;
 gap: 1rem;
 }}
@@ -195,7 +195,7 @@ text-align: center;}
     box-shadow:  -2px 7px 12px 6px rgba(255, 255, 255, 0.678);
     margin-bottom: 1.5rem;
 }
-@media (min-width: 768px) {.canalyt{font-size: 2rem;padding: 1rem 3rem;margin-top: 1rem;}
+@media (min-width: 992px) {.canalyt{font-size: 2rem;padding: 1rem 3rem;margin-top: 1rem;}
     
 }
 
@@ -205,7 +205,7 @@ text-align: center;}
     align-items: center;
     
 }
-@media (min-width: 768px) {.estudio{display: grid;
+@media (min-width: 992px) {.estudio{display: grid;
 grid-template-columns: 50% 50%;
 gap: 1rem;
 
@@ -219,15 +219,15 @@ font-weight: bold;}
 .estudio__video{width: 50rem; align-items: center;
 border-radius: .5rem;}
 
-@media (max-width: 768px) {.estudio__video{width: 35rem;}
+@media (max-width: 992px) {.estudio__video{width: 35rem;}
     
 }
 
-@media (min-width: 768px) {.espacioabajo p{margin-bottom: 6rem;}
+@media (min-width: 992px) {.espacioabajo p{margin-bottom: 6rem;}
     
 }
 /**PROGRAMAS**/
-@media (min-width: 768px) {.programas{display: grid;
+@media (min-width: 992px) {.programas{display: grid;
 grid-template-columns: 50% 50%;
 gap: 2rem;
 padding-top: 2rem;}}
@@ -291,7 +291,7 @@ margin-top: 1rem;}
     .cliente__video{width: 35rem;
         border-radius: .5rem;}
 
-        @media (min-width: 768px) {.cliente__video{width: 50rem;}
+        @media (min-width: 992px) {.cliente__video{width: 50rem;}
             
         }
 
