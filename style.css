@@ -275,7 +275,7 @@ border-radius: .5rem;}
     .programa-emitido h3{color: var(--white);}
 
     @media (max-width: 768px) {
-        .programa-emitido{max-width: 35rem;}
+        .programa-emitido{max-width: 20rem;}
     }
 
     @media (max-width: 992px) {
