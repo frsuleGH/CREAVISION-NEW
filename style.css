@@ -274,6 +274,10 @@ border-radius: .5rem;}
     margin-bottom: 1.5rem;}
     .programa-emitido h3{color: var(--white);}
 
+    @media (max-width: 768px) {
+        .programa-emitido{max-width: 35rem;}
+    }
+
     @media (max-width: 992px) {
         .programa-emitido{max-width: 40rem;}
     }
