@@ -266,6 +266,7 @@ border-radius: .5rem;}
     border: none;
     display: block;
     justify-content: center;
+    width: 40rem;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.678);
