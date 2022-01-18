@@ -170,7 +170,7 @@ background-image: url(HUMO.webp);
     
     align-items: center;
 }
-@media (min-width: 768px) {.servicios{display: grid;
+@media (min-width: 992px) {.servicios{display: grid;
 grid-template-columns: 50% 50%;
 gap: 1rem;
 }}
