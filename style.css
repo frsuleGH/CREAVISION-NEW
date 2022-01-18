@@ -145,7 +145,7 @@ padding: 1rem;
 padding-top: 2rem;
 }
 
-@media (min-width: 992px) {.ubicacion__logo{width: 70rem;}
+@media (min-width: 768px) {.ubicacion__logo{width: 70rem;}
     
 }
 /**SHADOW BACKGROUND**/
