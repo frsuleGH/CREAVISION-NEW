@@ -254,6 +254,24 @@ border-radius: .5rem;}
 border-radius: .5rem;}
     
 
+.programa-emitido {background-color:var(--primary);
+    color: var(--white);
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform:normal;
+    font-weight: bold;
+    border-radius: .5rem;
+    text-align: center;
+    border: none;
+    display: block;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.678);
+    -moz-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.678);
+    box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.678);
+    margin-bottom: 1.5rem;}
 
 /**video**/
 .marco{-webkit-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
