@@ -274,6 +274,10 @@ border-radius: .5rem;}
     margin-bottom: 1.5rem;}
     .programa-emitido h3{color: var(--white);}
 
+    @media (max-width: 992px) {
+        .programa-emitido{max-width: 40rem;}
+    }
+
 /**video**/
 .marco{-webkit-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
     -moz-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
