@@ -24,12 +24,12 @@ function scrollNav(){
 
 
 function navegacionFija(){
-    const barra = document.querySelector('.nav-bg');
-    const sobreFestival = document.querySelector('.principal');
+    const barra = document.querySelector('.header');
+    const servicios = document.querySelector('.principal');
     
 
     window.addEventListener('scroll', function(){
-        if( sobreFestival.getBoundingClientRect().bottom < 0 ){
+        if( servicios.getBoundingClientRect().top < 0 ){
             barra.classList.add('fijo');
           
         } else{
