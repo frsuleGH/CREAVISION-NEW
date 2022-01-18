@@ -280,7 +280,7 @@ border-radius: .5rem;}
     }
 
     @media (max-width: 992px) {
-        .programa-emitido{max-width: 40rem;}
+        .programa-emitido{max-width: 35rem;}
     }
 
 /**video**/
