@@ -4,11 +4,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function iniciarApp(){
     scrollNav();
+    navegacionFija();
    
 }
 
 function scrollNav(){
-    const enlaces = document.querySelectorAll('.navegacion a');
+    const enlaces = document.querySelectorAll('.navigation a');
     enlaces.forEach(enlaces =>{
         enlaces.addEventListener('click', function(e){
             e.preventDefault();
@@ -22,4 +23,18 @@ function scrollNav(){
 
 
 
+function navegacionFija(){
+    const barra = document.querySelector('.nav-bg');
+    const sobreFestival = document.querySelector('.principal');
+    
 
+    window.addEventListener('scroll', function(){
+        if( sobreFestival.getBoundingClientRect().bottom < 0 ){
+            barra.classList.add('fijo');
+          
+        } else{
+            barra.classList.remove('fijo');
+            
+        }
+    });
+}
