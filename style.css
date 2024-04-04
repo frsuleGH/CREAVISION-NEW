@@ -149,9 +149,9 @@ padding-top: 2rem;
     
 }
 /**SHADOW BACKGROUND**/
-.principal{-webkit-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
-    -moz-box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
-    box-shadow: -2px 7px 12px 6px rgba(255, 255, 255, 0.856);
+.principal{-webkit-box-shadow: -2px 5px 1px 1px rgba(255, 255, 255, 0.856);
+    -moz-box-shadow: -2px 5px 1px 1px rgba(255, 255, 255, 0.856);
+    box-shadow: -2px 5px 1px 1px rgba(255, 255, 255, 0.856);
 border-radius: 1rem;
 display: flex;
 flex-direction: column;
