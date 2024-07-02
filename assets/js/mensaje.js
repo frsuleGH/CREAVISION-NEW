@@ -33,7 +33,7 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
         numeroTelefono +
         "&text=" +
         "*Nombre*: " + nombreMensaje + "%0A" +
-        "Mensaje: " + mensajeWhatsApp;
+        "*Mensaje*: " + mensajeWhatsApp;
 
     // Redirigir a WhatsApp
     window.location.href = url;
