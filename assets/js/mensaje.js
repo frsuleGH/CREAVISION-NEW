@@ -25,7 +25,7 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
     var nombreMensaje = encodeURIComponent(nombre);
     var mensajeWhatsApp = encodeURIComponent(mensaje);
 
-    var numeroTelefono = "543425336098";
+    var numeroTelefono = "543425115870";
 
     // URL de WhatsApp con el mensaje y tu número de teléfono
     var url =
