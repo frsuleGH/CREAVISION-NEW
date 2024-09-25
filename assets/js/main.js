@@ -6,11 +6,11 @@
 
 
 
-async function fetchLatestVideos() {
+async function fetchLatestVideo() {
 	const apiKey = 'AIzaSyAQ5WURC2Z2OU0AJG4uyUacgQQn08gW4Yw';
 	const channelId = 'UCRRLLlb0iqo0flVH1zhsABw';
 
-	const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=5&order=date&type=video&key=${apiKey}&_=${Date.now()}`;
+	const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=1&order=date&type=video&key=${apiKey}&_=${Date.now()}`;
 
 	try {
 		const response = await fetch(url);
@@ -21,10 +21,9 @@ async function fetchLatestVideos() {
 		}
 
 		const mainVideoContainer = document.getElementById('main-video-container');
-		const videoList = document.getElementById('video-list');
 
-		if (!mainVideoContainer || !videoList) {
-			throw new Error('No se encontraron los contenedores de videos en el DOM.');
+		if (!mainVideoContainer) {
+			throw new Error('No se encontró el contenedor de video en el DOM.');
 		}
 
 		// Mostrar el último video
@@ -32,35 +31,15 @@ async function fetchLatestVideos() {
 		mainVideoContainer.innerHTML = `
 		  <iframe src="https://www.youtube.com/embed/${latestVideoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		`;
-
-		// Generar la lista de videos
-		videoList.innerHTML = data.items.map(item => {
-			const videoId = item.id.videoId;
-			const title = item.snippet.title;
-			return `
-			<div class="video-list-item" data-video-id="${videoId}">
-			  ${title}
-			</div>
-		  `;
-		}).join('');
-
-		// Añadir evento de clic a cada elemento de la lista
-		document.querySelectorAll('.video-list-item').forEach(item => {
-			item.addEventListener('click', () => {
-				const videoId = item.getAttribute('data-video-id');
-				mainVideoContainer.innerHTML = `
-			  <iframe src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			`;
-			});
-		});
 	} catch (error) {
-		console.error('Error fetching videos:', error);
+		console.error('Error fetching video:', error);
 	}
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-	fetchLatestVideos();
+	fetchLatestVideo();
 });
+
 
 document.addEventListener('DOMContentLoaded', function () {
 	// Selecciona todos los enlaces con la clase 'scroll-to'
