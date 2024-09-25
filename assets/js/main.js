@@ -10,14 +10,19 @@ async function fetchLatestVideo() {
 	const apiKey = 'AIzaSyAQ5WURC2Z2OU0AJG4uyUacgQQn08gW4Yw';
 	const channelId = 'UCRRLLlb0iqo0flVH1zhsABw';
 
-	const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=1&order=date&type=video&key=${apiKey}&_=${Date.now()}`;
+	// Obtener la fecha de un mes atrás
+	const oneMonthAgo = new Date();
+	oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
+	const publishedAfter = oneMonthAgo.toISOString();
+
+	const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=1&order=date&type=video&publishedAfter=${publishedAfter}&key=${apiKey}&_=${Date.now()}`;
 
 	try {
 		const response = await fetch(url);
 		const data = await response.json();
 
 		if (!data.items || data.items.length === 0) {
-			throw new Error('No se encontraron videos.');
+			throw new Error('No se encontraron videos recientes.');
 		}
 
 		const mainVideoContainer = document.getElementById('main-video-container');
