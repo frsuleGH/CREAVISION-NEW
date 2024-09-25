@@ -10,7 +10,7 @@ async function fetchLatestVideos() {
 	const apiKey = 'AIzaSyAQ5WURC2Z2OU0AJG4uyUacgQQn08gW4Yw';
 	const channelId = 'UCRRLLlb0iqo0flVH1zhsABw';
 
-	const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=5&order=date&type=video&key=${apiKey}`;
+	const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=5&order=date&type=video&key=${apiKey}&_=${Date.now()}`;
 
 	try {
 		const response = await fetch(url);
